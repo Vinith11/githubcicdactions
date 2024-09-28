@@ -11,7 +11,7 @@ public class GithubcicdactionsApplication {
 
     @GetMapping("/welcome")
     public String hello() {
-        return "Hello Github Actions!!!!";
+        return "Hello Github Actions!!!! chevking if you are updating";
     }
 
     public static void main(String[] args) {
