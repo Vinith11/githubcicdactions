@@ -11,7 +11,7 @@ public class GithubcicdactionsApplication {
 
     @GetMapping("/welcome")
     public String hello() {
-        return "Is render working? SUIIIIIIIIIIIIIIIIIIII!";
+        return "Hello Github Actions!!!!";
     }
 
     public static void main(String[] args) {
