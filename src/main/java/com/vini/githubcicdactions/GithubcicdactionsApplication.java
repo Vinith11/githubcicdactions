@@ -11,7 +11,7 @@ public class GithubcicdactionsApplication {
 
     @GetMapping("/welcome")
     public String hello() {
-        return "Render auto deploy from Github Actions";
+        return "Render auto deploy from Github Actions again i missed it";
     }
 
     public static void main(String[] args) {
